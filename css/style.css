@@ -1,0 +1,116 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.medsos {
+	padding: 5px 0;
+	background-color: #1f2c68;
+}
+
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+header h1 {
+	float: left;
+	font-size: 30px;
+	padding: 15px 0;
+	color: #1f2c68;
+}
+
+header ul {
+	float: right;
+}
+
+header ul li {
+	display: inline-block;
+}
+
+header ul li a {
+	padding: 25px 20px;
+	display: inline-block;
+}
+
+header ul li a:hover {
+	background-color: #1f2c68;
+	color: #fff;
+}
+
+.active {
+	background-color: #1f2c68;
+	color: #fff;
+}
+
+.banner {
+	height: 60vh;
+	background-image: url('../img/banner2.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top:0;
+	left:0 ;
+	right:0 ;
+	bottom: 0;
+	background-color: rgba(55, 78, 121, 0.6);
+
+}
+
+.heading1 {
+	color:#fff;
+	z-index: 1;
+	font-size: 40px;
+}
+
+
+section {
+	padding: 50px 0;
+	border-bottom: 2px solid #dee7ec;
+}
+
+section h3 {
+	text-align: center;
+	padding: 20px 0;
+	color: #1f2c68;
+	margin-bottom: 25px;
+}
+
+.service {
+	padding-bottom: 100px;
+	border-bottom: 2px solid #dee7ec;
+}
+
+.about p {
+	color: rgb(53, 50, 50);
+	word-spacing: 2px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+}
