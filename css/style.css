@@ -152,3 +152,132 @@ section h3 {
 .box .col-4 h4 {
 	margin: 20px 0;
 }
+
+footer {
+	position: relative;
+	width: 100%;
+	bottom: 0px;
+	background: grey;
+}
+
+.footer-content {
+	display: flex;
+}
+
+.content-social {
+	flex-basis: 30%;
+	padding: 10px 20px;
+	margin-left: 30px;
+	margin-top: 10px;
+	line-height: 40px;
+	color: ivory;
+	font-weight: 500;
+}
+
+.content-social li a:hover {
+	background: darkturquoise;
+	transition: 0.3s;
+}
+
+.content-address {
+	flex-basis: 35%;
+	padding: 10px 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	color: ivory;
+	line-height: 50px;
+}
+
+.content-address  span:hover {
+ background: darkturquoise;
+ cursor: pointer;
+
+}
+
+
+.content-pesan {
+	flex-basis: 30%;
+	padding: 10px 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	color: ivory;
+}
+
+
+
+
+.content-pesan .content .email {
+	margin-top: 10px;
+}
+
+.footer-bottom {
+	padding: 5px;
+	background-color:black;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	height: 20px;
+	border-top: 2px solid rgb(39, 39, 143);
+
+}
+
+
+
+.bg-loader {
+	background-color: #eee;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bg-loader .loader {
+	width: 100px;
+	height: 100px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	border-top-color: #148F77;
+	border-right-color: #148F77;
+	border-bottom-color: #148F77;
+	animation: puterin .8s linear infinite;
+}
+
+.label {
+	background-color: #148F77;
+	color: #fff;
+}
+
+@keyframes puterin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 90%;
+	}
+
+	header h1 {
+		text-align: center;
+		float: none;
+	}
+
+	header ul {
+		text-align: center;
+		float: none;
+	}
+
+	.box .col-4 {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+    .box .col-4 p{
+		color: black;
+	}
