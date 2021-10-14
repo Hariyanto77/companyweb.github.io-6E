@@ -1,6 +1,6 @@
 Pembagian Tugas Proyek Tim (6E-Kelas 7) Dalam Membuat Web Company Profil ( TAHUYA Digital )
 
-- Husnul KT : Header, Bagian Main
-- Husnul : Main Body 
-- Gede arya : Footer 
-- Hariyanto : Animasi Button, Responsive Mobile Friendly
+- Husnul KT : Membuat Header, Bagian Main
+- Husnul : Membuat Main Body 
+- Gede arya : Membuat Footer 
+- Hariyanto : Membuat Animasi Pada ( Button, Menu Navigation dan Menu Footer ), Section contact, Mengganti jenis font menjadi "Poppins, sans-serif", Responsive Mobile Friendly
